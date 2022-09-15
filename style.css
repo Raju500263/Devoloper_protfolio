@@ -5,13 +5,14 @@ body {
 
 h1 {
     font-size: 50px;
+
 }
 
 .orange_color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 135px;
 }
@@ -49,4 +50,53 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+.top {
+    padding-left: 5%;
+
+}
+
+.orange-color {
+    color: orange;
+}
+
+.expariance-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 5px 5px 50px gold;
+    border-radius: 10px;
+
+
+
+}
+
+.fonth2 {
+    font-size: 40px;
+}
+
+.expariance-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#id255 {
+    border-left: 10px solid;
+    border-image: linear-gradient(tomato, crimson);
+    border-image-slice: 1;
+}
+
+#id256 {
+    border-left: 10px solid;
+    border-image: linear-gradient(#E1A220, gold);
+    border-image-slice: 1;
+
+}
+
+footer p {
+    text-align: center;
 }
